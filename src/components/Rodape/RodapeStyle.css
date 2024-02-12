@@ -1,0 +1,66 @@
+.secao-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-agrupador-rodape {
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+/* Logo */
+#logo {
+    margin-bottom: 30px;
+}
+
+/* todas as imagens */
+.container-agrupador-rodape img {
+    width: 50px;
+}
+
+.container-agrupador-rodape p {
+    width: 41%;
+    margin: 0 auto 40px auto;
+}
+
+/* redes sociais */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.assinatura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.assinatura span {
+    color: #feb633;
+}
+
+/* Telas 768px */
+@media (max-width:768px) {
+    .container-agrupador-rodape p {
+        width: 50%;
+    }
+}
+
+
+/* Telas 375px */
+@media (max-width:375px)  {
+    .container-agrupador-rodape img {
+        width: 12%;
+    }
+
+    .container-agrupador-rodape p {
+        width: 80%;
+        margin: 0 auto 40px auto;
+    }
+}

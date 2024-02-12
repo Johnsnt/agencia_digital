@@ -1,0 +1,32 @@
+.card {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+
+
+    text-align: left;
+}
+
+.card:hover {
+    background-color: #feb633;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #32333c;
+}
+
+.card p:nth-of-type(2) {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width:768px) {
+    .card {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

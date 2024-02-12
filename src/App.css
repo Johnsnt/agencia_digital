@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+
+/* Light mode base color */
+.light-mode {
+  background-color: #fff;
+}
+
+.light-mode {
+  background-color: #f6f8fc;
+}
+
+/* Botão cabeçalho */
+.light-mode .botao {
+  border: 1px solid #252525;
+  background-color: #fff;
+}
+
+/* Subtítulo */
+.light-mode .container-expTitulo h2, .light-mode h3  {
+  color: #32333c;
+}
+
+/* Paragráfo */
+.light-mode p{
+  color: #8a8fa3;
+}
+
+/* boxCard */
+.light-mode .card {
+  border: 1px solid #edecec;
+}
+
+
+
+
+
+
+
+/* ********* Dark Mode **********/
+/* Dark Mode base color */
+.dark-mode, .dark-mode .container-banner{
+  background-color:  #252525;
+}
+
+.dark-mode + .secao-expTrabalho  {
+  background-color: #393838;
+}
+
+.dark-mode .container-expTitulo p {
+  color: #cccccc;
+}
+
+.dark-mode .container-expTitulo h2{
+  color: #cccccc;
+}
+
+/*Botão cabeçalho */
+.dark-mode .botao {
+  border: 1px solid #fff;
+  background-color: #252525;
+}
+
+/* Parágrafo */
+.dark-mode p {
+  color: #8a8fa3;
+}
+
+.dark-mode .card p {
+  color: #9f9f9f;
+}
+
+
+/*Rodapé */
+
+.dark-mode .assinatura {
+  border-top:1px solid #ffffff0d;
+}
+
+
+/* Card configs */
+.dark-mode .card {
+  border: 1px solid #ffffff0d;
+}
+
+
+
+.dark-mode .card h3 {
+  color: #fff;
+}
